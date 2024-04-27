@@ -1,0 +1,361 @@
+
+/* Estilos para los elementos .form, .booking-date, .check-in, .booking-details */
+.form h1,
+.booking-date h1,
+.check-in h1,
+.booking-details h1 {
+  color: var(--color-2);
+  font-size: 36px;
+  font-weight: 600;
+  color: #1b2e4e;
+}
+
+.form .title-form {
+  padding: 40px 0px 16px 0px;
+}
+
+.booking-information {
+  padding: 0px 40px 40px 40px;
+  width: 100%;
+  max-width: 100vw;
+  max-height: 100%;
+  background-color: rgba(243, 241, 237, 0.415);
+  display: flex;
+  justify-content: space-between;
+}
+
+.booking-information .error-input {
+  color: #FF0000;
+  font-size: 15px;
+  font-weight: 700;
+  margin-top: 3px;
+  margin-bottom: 8px;
+}
+
+.form {
+  width: 72%;
+  padding-right: 40px;
+}
+
+.form .title-form h1 {
+  padding-bottom: 1rem;
+  margin-top: 56px;
+}
+
+.title-booking-details {
+  padding: 40px 0px 16px 0px;
+  margin-bottom: .5rem;
+
+}
+
+.form .form-inputs {
+  display: flex;
+  flex-direction: column;
+}
+
+.form .form-inputs .card-booking {
+  display: flex;
+  padding: 20px 13px;
+}
+
+.form .form-inputs .inputs-div {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  padding: 0px 15px;
+}
+
+.form .form-inputs .inputs-div label {
+  font-size: 14px;
+  color: var(--color-2);
+  font-style: bold;
+  margin-top: 20px;
+  margin-bottom: 10px;
+  align-self: flex-start;
+  font-weight: 700;
+  line-height: 14px;
+}
+
+.form .form-inputs .inputs-div input {
+  width: 100%;
+  height: 3rem;
+  border-radius: 5px;
+  border: 1px solid #fff;
+  padding: 0.5rem;
+  margin-bottom: 1rem;
+  box-shadow: 0px 1px 5px rgba(0, 0, 0, 0.15);
+}
+
+.booking-date {
+  width: 100%;
+}
+
+.booking-date .card-booking {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-width: 100%;
+  padding: 15px;
+}
+
+.check-in {
+  margin-bottom: 2rem;
+}
+
+.check-in .card-booking {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  padding: 25px;
+}
+
+.check-in .card-booking .title-check-in {
+  font-size: 16px;
+}
+
+.check-in .card-booking .title-check-in svg {
+  font-size: 1.5rem;
+  margin-right: 8px;
+}
+
+.check-in .card-booking .subtitle-check-in {
+  font-size: 14px;
+}
+
+.check-in .card-booking .css-b62m3t-container {
+  margin-bottom: 15px;
+}
+
+.check-in .card-booking .title-check-in,
+.check-in .card-booking .subtitle-check-in {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: var(--color-2);
+  margin-bottom: 18px;
+  font-weight: 700;
+}
+
+.check-in .card-booking .title-check-in svg {
+    font-size: 2.7rem;
+}
+
+.check-in .card-booking .css-qc6sy-singleValue {
+  color: #383b58;
+  font-weight: 700;
+}
+
+.form-inputs,
+.booking-date {
+  margin-bottom: 2rem;
+}
+
+/* Estilos para .booking-details */
+.booking-details {
+  width: 28%;
+}
+
+.booking-details .card-booking {
+  min-height: 100%;
+}
+
+.booking-details .bottom-booking-details h4 {
+  color: var(--gris-plomo);
+}
+
+.booking-details .location-booking-details h4,
+.booking-details .location-booking-details svg {
+  color: var(--color-2);
+}
+
+.booking-details .check-in-booking-details h4 {
+  padding: 23px 0px;
+}
+
+.booking-details .textarea-booking textarea {
+  margin-top: 25px;
+  width: 100%;
+  padding: 10px;
+  height: 6rem;
+  border-radius: 5px;
+  border: 1px solid #fff;
+  margin-bottom: 1rem;
+  box-shadow: 0px 1px 5px rgba(0, 0, 0, 0.15);
+}
+
+.booking-details .checkbox-booking .container {
+  margin-top: 15px;
+  font-size: 14px;
+  font-weight: 700;
+  color: var(--color-3);
+}
+
+.booking-details button {
+  background-color: #f38164;
+  width: 100%;
+  height: fit-content;
+  color: #ffffff;
+  border: none;
+  border-radius: 25px;
+  padding: 10px 20px;
+  font-size: 1rem;
+  cursor: pointer;
+  position: relative;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.booking-details button:hover {
+  background-color: #fff;
+  color: #1b2e4e ;
+  transition: background-color 0.3s;
+}
+
+
+
+/* Estilos para .booking-alternative y .booking-success-container */
+.booking-alternative {
+  height: 100vh;
+  text-align: center;
+}
+
+.booking-success-container {
+  width: 100%;
+  padding: 40px;
+  background-color: var(--color-4);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+
+/* Estilos para .booking-success-card */
+.booking-success-card {
+  width: 55%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 15%;
+  margin-bottom: 15%;
+  padding: 2em;
+  max-height: 350px;
+  max-width: 750px;
+}
+
+.booking-success-card img {
+  width: 128px;
+}
+
+.booking-success-card h1 {
+  margin-top: 20px;
+  margin-bottom: 10px;
+  color: var(--color-principal);
+}
+
+.booking-success-card h3 {
+  color: var(--color-2);
+}
+
+.booking-success-card a {
+  background-color: var(--color-principal);
+  border-color: transparent;
+  width: 40%;
+  margin-top: 1em;
+  border-radius: 0.5em;
+  height: 3.2em;
+  font-size: inherit;
+  font-weight: bold;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+}
+
+/* Estilos para .card-booking */
+.card-booking {
+  background: #ffffff;
+  border: 1px solid #dfe4ea;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 8px;
+}
+
+.boton-enviar button input[type="submit"] {
+  background-color: #f38164;
+  width: 100%;
+  height: fit-content;
+  color: #ffffff;
+  border: none;
+  border-radius: 25px;
+  padding: 10px 20px;
+  font-size: 1rem;
+  cursor: pointer;
+  position: relative;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.boton-enviar input[type="submit"]:hover {
+  background-color: #fff;
+  color: #1b2e4e ;
+  transition: background-color 0.3s;
+}
+
+
+
+/* Estilos para dispositivos con ancho de pantalla entre 480px y 768px */
+@media screen and (min-width: 480px) and (max-width: 768px) {
+  .booking-information {
+    flex-direction: column;
+  }
+
+  .form {
+    width: 100%;
+    padding-right: unset;
+  }
+
+  .booking-details {
+    margin-top: 30px;
+    width: 100%;
+  }
+
+  .booking-details .bottom-booking-details,
+  .booking-details {
+    padding: 14px;
+    width: 45%;
+  }
+
+  .booking-details .card-booking {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .booking-details .card-booking .content-booking-details {
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 15px 10px 15px;
+  }
+
+  .booking-details .card-booking .content-booking-details .image-container {
+    height: unset;
+    margin-bottom: 15px;
+    width: 55%;
+  }
+
+  .booking-details .card-booking .bottom-booking-details .check-in-booking-details h4 {
+    padding: 25px 0px;
+  }
+
+  .booking-details .card-booking .bottom-booking-details button {
+    margin-top: 15px;
+  }
+
+  .booking-details .card-booking .content-booking-details .image-container .image {
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-radius: 15px;
+  }
+}

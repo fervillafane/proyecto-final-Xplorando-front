@@ -1,0 +1,145 @@
+.contenedor-formulario {
+  width: 75vw;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 56px;
+}
+
+.texto {
+  text-align: center;
+  font-size: 1.5rem;
+  font-weight: 600;
+  color: #273562;
+}
+
+.fila-formulario {
+  display: flex;
+  margin: 1rem 0;
+}
+
+.input-container {
+  flex: 1;
+  margin-right: 24px; /* Espaciado uniforme */
+  position: relative;
+}
+
+.input-container:last-child {
+  margin-right: 0; /* Para la última fila, elimina el margen derecho */
+}
+
+.input-container label {
+  font-size: 12px;
+  color: #273562;
+  position: absolute;
+  top: -10px; /* Coloca el label encima del input */
+  left: 10px;
+  background-color: white; /* Color del fondo del label */
+  padding: 0 5px; /* Espacio interno del label */
+  z-index: 10; /* Asegura que el label esté por encima del input */
+}
+
+.input-container select,
+.input-container input[type="text"],
+.input-container textarea {
+  width: 100%; /* Ocupa el 100% del ancho disponible */
+  border: 1.5px solid #273662;
+  height: 3.5rem;
+  padding: 0.5rem;
+  box-sizing: border-box;
+  border-radius: 0.25rem;
+}
+
+.input-container textarea {
+  height: 7rem;
+  resize: none;
+  padding-top: 0.625rem;
+}
+
+.boton-enviar input[type="submit"] {
+  background-color: #f38164;
+  width: 100%;
+  height: fit-content;
+  color: #ffffff;
+  border: none;
+  border-radius: 25px;
+  padding: 10px 20px;
+  font-size: 1rem;
+  cursor: pointer;
+  position: relative;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.boton-enviar input[type="submit"]:hover {
+  background-color: #fff;
+  color: #1b2e4e ;
+  transition: background-color 0.3s;
+}
+
+.boton-imagenes {
+  display: inline-block;
+  font-size: 14px;
+  padding: 10px 20px;
+  background-color: #273662;
+  color: white;
+  border: none;
+  border-radius: 25px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.boton-imagenes:hover {
+  background-color: #1b2e4e;
+}
+
+.supporting-text {
+  margin-top: 0.25rem; /* Espacio entre el input y el texto de soporte */
+  font-size: 0.75rem; /* Tamaño de la fuente del texto de soporte */
+  color: #31363f; /* Color del texto de soporte */
+}
+
+.mobile-message {
+  display: none; /* Ocultar el mensaje por defecto */
+}
+
+
+.caracteristica {
+  margin-bottom: 10px;
+}
+
+.checkbox-container {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.checkbox-group {
+  margin-right: 20px;
+  margin-bottom: 10px;
+  display: flex;
+  align-items: center;
+}
+
+.checkbox-group input {
+  margin-right: 5px;
+}
+
+@media only screen and (max-width: 768px) {
+  /* Estilos para dispositivos móviles */
+  .mobile-message {
+    display: flex;
+    justify-content: center;
+    align-items: center; /* Mostrar el mensaje solo en dispositivos móviles */
+    background-color: #f38164;
+    color: #ffffff;
+    text-align: center;
+    padding: 10px;
+  }
+
+  /* Ocultar el formulario en dispositivos móviles */
+  .contenedor-formulario form {
+    display: none;
+  }
+}

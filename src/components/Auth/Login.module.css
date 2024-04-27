@@ -1,0 +1,136 @@
+.loginContainer {
+  display: flex;
+  height: 100vh;
+}
+
+.imageContainerLogin {
+  flex: 1;
+  background: url('src/assets/img/fotologin.jpg') center/cover no-repeat;
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  position: relative;
+}
+
+.imageContainerLogin::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background: rgba(0, 0, 0, 0.5);
+}
+
+.imageTextLogin {
+  text-align: left;
+  font-size: 70px;
+  justify-content: baseline;
+  z-index: 1;
+}
+
+.formContainerLogin {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #f2f2f2;
+  padding: 20px;
+}
+
+.formTitleLogin {
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.inputWrapperLogin {
+  margin-bottom: 20px;
+}
+
+.inputLogin {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.buttonWrapperLogin {
+  display: flex;
+  align-items: center;
+}
+
+.primaryButtonLogin {
+  background-color: #f38134;
+  color: #fff;
+  font-size: 14px;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 20px;
+  font-weight: bold;
+  cursor: pointer;
+  margin-right: 10px;
+}
+
+.primaryButtonLogin:hover {
+  background-color: #d95e26;
+}
+
+.registroLink {
+  margin-left: 5px;
+  color: #f38134;
+  text-decoration: none;
+}
+
+
+/* Para tablets */
+@media (max-width: 1024px) {
+  .loginContainer {
+    flex-direction: column;
+    height: auto;
+  }
+
+  .imageContainerLogin {
+    height: 400px;
+  }
+
+  .imageTextLogin {
+    font-size: 50px;
+    text-align: center;
+  }
+
+  .formContainerLogin {
+    padding: 40px;
+  }
+}
+
+/* Para dispositivos móviles */
+@media (max-width: 767px) {
+  .imageContainerLogin {
+    height: 300px;
+  }
+
+  .imageTextLogin {
+    font-size: 40px;
+  }
+
+  .formContainerLogin {
+    padding: 20px;
+  }
+
+  .inputWrapperLogin {
+    margin-bottom: 15px;
+  }
+
+  .buttonWrapperLogin {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .primaryButtonLogin {
+    margin-right: 0;
+    margin-bottom: 10px;
+  }
+}

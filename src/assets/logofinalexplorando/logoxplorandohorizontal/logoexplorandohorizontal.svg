@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Capa_1" data-name="Capa 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 295.16 89">
+  <defs>
+    <style>
+      .cls-1 {
+        letter-spacing: .15em;
+      }
+
+      .cls-2 {
+        letter-spacing: .13em;
+      }
+
+      .cls-3 {
+        fill: #f08265;
+      }
+
+      .cls-3, .cls-4 {
+        stroke-width: 0px;
+      }
+
+      .cls-5 {
+        letter-spacing: .16em;
+      }
+
+      .cls-6 {
+        font-family: NeueHaasDisplay-Black, 'Neue Haas Grotesk Display Pro';
+        font-size: 33.76px;
+        font-weight: 800;
+      }
+
+      .cls-6, .cls-4 {
+        fill: #283562;
+      }
+
+      .cls-7 {
+        letter-spacing: .15em;
+      }
+    </style>
+  </defs>
+  <path class="cls-4" d="m9.36,65.03l13.82-20.61-13.59-20.25h9.63l8.77,13.08L52.97,0,11.92,13.28l-7.91,2.56-4.01,1.3v46.26c0,1.62,1.31,2.94,2.94,2.94h3.98c.98,0,1.89-.49,2.44-1.3Z"/>
+  <path class="cls-3" d="m53.96,22.67h-3.98c-.98,0-1.89.49-2.44,1.3l-14.22,21.21,12.95,19.3h-9.63l-8.14-12.13L3.94,89l40.39-13.07,6.85-2.22,5.72-1.85V25.61c0-1.62-1.31-2.94-2.94-2.94Z"/>
+  <text class="cls-6" transform="translate(65.14 55.36)"><tspan class="cls-7" x="0" y="0">P</tspan><tspan class="cls-2" x="27.45" y="0">L</tspan><tspan class="cls-1" x="51.14" y="0">O</tspan><tspan class="cls-5" x="81.63" y="0">R</tspan><tspan class="cls-7" x="110.25" y="0">ANDO</tspan></text>
+</svg>

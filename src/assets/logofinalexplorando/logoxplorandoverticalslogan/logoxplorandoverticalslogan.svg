@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Capa_1" data-name="Capa 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 138.56 142.85">
+  <defs>
+    <style>
+      .cls-1 {
+        letter-spacing: .15em;
+      }
+
+      .cls-2 {
+        letter-spacing: .15em;
+      }
+
+      .cls-3 {
+        letter-spacing: .15em;
+      }
+
+      .cls-4 {
+        letter-spacing: .13em;
+      }
+
+      .cls-5 {
+        fill: #f08265;
+      }
+
+      .cls-5, .cls-6 {
+        stroke-width: 0px;
+      }
+
+      .cls-7 {
+        letter-spacing: .14em;
+      }
+
+      .cls-8 {
+        font-family: NeueHaasDisplay-Black, 'Neue Haas Grotesk Display Pro';
+        font-size: 18px;
+        font-weight: 800;
+      }
+
+      .cls-8, .cls-9, .cls-6 {
+        fill: #283562;
+      }
+
+      .cls-10 {
+        letter-spacing: .16em;
+      }
+
+      .cls-11 {
+        letter-spacing: .13em;
+      }
+
+      .cls-12 {
+        letter-spacing: .12em;
+      }
+
+      .cls-13 {
+        letter-spacing: .13em;
+      }
+
+      .cls-9 {
+        font-family: NeueHaasDisplay-Light, 'Neue Haas Grotesk Display Pro';
+        font-size: 9px;
+        font-weight: 300;
+      }
+
+      .cls-14 {
+        letter-spacing: .13em;
+      }
+    </style>
+  </defs>
+  <path class="cls-6" d="m45.36,72.72l15.46-23.05-15.19-22.65h10.76l9.81,14.62L94.12,0l-45.9,14.85-8.85,2.86-4.48,1.45v51.73c0,1.81,1.47,3.28,3.28,3.28h4.45c1.09,0,2.12-.55,2.73-1.45Z"/>
+  <path class="cls-5" d="m95.24,25.35h-4.45c-1.09,0-2.12.55-2.73,1.45l-15.91,23.72,14.48,21.59h-10.76l-9.1-13.56-27.48,40.98,45.16-14.61,7.66-2.48,6.4-2.07V28.64c0-1.81-1.47-3.28-3.28-3.28Z"/>
+  <text class="cls-8" transform="translate(.04 120.46)"><tspan class="cls-1" x="0" y="0">XP</tspan><tspan class="cls-13" x="30.51" y="0">L</tspan><tspan class="cls-1" x="43.15" y="0">O</tspan><tspan class="cls-10" x="59.4" y="0">R</tspan><tspan class="cls-1" x="74.66" y="0">ANDO</tspan></text>
+  <text class="cls-9" transform="translate(7.84 133.41)"><tspan class="cls-3" x="0" y="0">Vi</tspan><tspan class="cls-4" x="9.6" y="0">v</tspan><tspan class="cls-2" x="14.9" y="0">e nu</tspan><tspan class="cls-14" x="35.08" y="0">e</tspan><tspan class="cls-11" x="40.84" y="0">v</tspan><tspan class="cls-7" x="46.09" y="0">a</tspan><tspan class="cls-3" x="51.86" y="0">s </tspan><tspan class="cls-12" x="59.91" y="0">e</tspan><tspan class="cls-2" x="65.54" y="0">xperienci</tspan><tspan class="cls-7" x="110.44" y="0">a</tspan><tspan class="cls-2" x="116.21" y="0">s</tspan></text>
+</svg>

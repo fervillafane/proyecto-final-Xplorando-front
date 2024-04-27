@@ -1,0 +1,75 @@
+.resultadoBusqueda-div {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    justify-content: space-between;
+    height: 200px;
+    padding: 10px;
+}
+
+
+.resultadoBusqueda-nombre {
+    display: flex;
+    justify-content: left;
+    width: 90%;
+    font-weight: bolder;
+    margin-top: 5px;
+  }
+  
+  .resultadoBusqueda-precio {
+    display: flex;
+    justify-content: left;
+    width: 90%;
+  }
+  
+  .rBusqueda {
+    display: flex !important;
+    align-items: center;
+    flex-direction: column;
+    width: 360px !important;
+    background-color: #8799d8;
+    height: 480px;
+    border-radius: 12px;
+    border: 1px;
+    margin-bottom: 50px;
+  }
+  
+  .imgRBusqueda {
+    width: 360px;
+    height: 266px;
+    border-radius: 12px;
+    object-fit: cover;
+  }
+  
+  .div-img {
+    width: 360px;
+    height: 266px;
+    background-color: red;
+    border-radius: 12px;
+  }
+  
+  .butBusqueda {
+    width: 161px;
+    height: 40px;
+    border-radius: 100px;
+    background-color: #273662;
+    color: white;
+  }
+  .h7Busqueda {
+    color: white;
+    text-align: justify;
+    width: 90%;
+  }
+  
+  .divbutBusqueda {
+    display: flex;
+    justify-content: end;
+    margin: 12px;
+    width: 90%;
+  }
+  
+  .carrousel-card {
+    display: flex;
+    justify-content: center;
+  }
+  

@@ -1,0 +1,10 @@
+    .mobile-message {
+      display: flex;
+      height:100vh;
+      align-items:center; 
+      justify-content:center; /* Mostrar el mensaje solo en dispositivos móviles */
+      background-color: #f38164;
+      color: #ffffff;
+      text-align: center;
+      padding: 10px;
+    }

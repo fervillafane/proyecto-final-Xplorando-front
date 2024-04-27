@@ -1,0 +1,213 @@
+/* Mobil */
+.detail {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  margin-top: 56px;
+  width: 100vw;
+  justify-content: center;
+  align-items: center;
+  overflow-x: hidden; /* Evitar scroll horizontal */
+}
+
+.content {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.detailInfo {
+  text-align: left;
+  margin: 0 auto;
+  padding: 2rem;
+  width: 100%;
+  box-sizing: border-box; /* Incluir padding en el ancho */
+  max-width: 400px; /* Tamaño fijo */
+}
+
+h2 {
+  margin-top: 0px;
+  margin-bottom: 3px;
+  font-style: normal;
+  font-weight: 400;
+}
+
+
+.stars {
+  color: #ddd;
+  display: flex;
+  justify-content: flex-end;
+  flex-direction: row-reverse; 
+  font-size: 1.5rem;
+  padding: 0 5px;
+}
+
+.star:hover,
+.star:hover ~ .star {
+  color: #ffc700;
+  
+}
+
+.btn {
+  background-color: #f38164;
+  color: #ffffff;
+  border-radius: 25px;
+  padding: 0.5rem 1rem;
+  margin: 0.5rem;
+  text-decoration: none;
+  width: 50%;
+
+  
+}
+
+/* Tablet */
+@media (min-width: 768px) {
+  .content {
+    flex-direction: row;
+    width: 90vw;
+    
+  }
+
+  .detailInfo {
+    flex: 1;
+    padding: 3rem;
+    max-width: none; /* Restaurar el ancho automático */
+    color: #273662;
+  }
+}
+
+/* Escritorio */
+@media (min-width: 1440px) {
+  .detailInfo {
+    padding: 4rem;
+    max-width: 800px;
+  }
+}
+
+.container {
+  width: 90vw;
+}
+
+.caracteristicas-container {
+  display: flex;
+  flex-wrap: wrap;
+    gap: auto;
+  margin-top: auto;
+}
+
+.caracteristicas {
+  display: flex;
+  flex: 0 1 calc(25% - 20px);
+  margin-bottom: 20px;
+  align-items: center;
+  text-align: center;
+
+
+
+
+}
+.h3 {
+  margin: 0;
+  margin-left: 10px;
+  font-size: 20px;
+  /* 
+  font-family: 'NeueHaasDisplay';
+  color: #273662;
+  font-size: 16.66px; */
+  
+}
+
+.h5 {
+  font-weight:bolder;
+
+}
+
+.init {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+
+}
+.complejo {
+  color: #273662;
+  margin-top: 50px;
+  font-size: 16.66px;
+  width: auto;
+  align-items: center;
+  
+}
+
+
+.btn {
+  width: auto;
+}
+
+.btn:hover {
+  background-color: #fff;
+  color: #1b2e4e ;
+  transition: background-color 0.3s;
+}
+ /* CALENDAR STYLES */
+
+.wrapperCalendar {
+  display: flex;
+  padding-inline: 3%;
+  margin-top: 20px;
+  flex-direction: row;
+  flex-direction: column;
+}
+
+.wrapperCalendarTitle {
+  gap: 10px;
+  text-align: center;
+}
+
+.datepicker-mobile {
+  display: none;
+}
+
+/*MOBILE STYLES*/
+
+@media (max-width: 520px) {
+  .datepicker-desktop {
+      display: none;
+
+  }
+
+  .datepicker-mobile {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin-bottom: 20px;
+      flex-direction: column;
+  }
+
+  .react-datepicker-card {
+      width: 100%;
+      margin-top: 30px;
+
+  }
+
+  .react-datepicker-card__body {
+      width: 80%;
+      height: initial;
+      background-color: transparent;
+      display: flex;
+      flex-direction: column;
+      border-radius: unset;
+      align-items: center;
+      box-shadow: unset;
+  }
+
+  .wrapper-calendar-button {
+      margin-top: 20px;
+  }
+
+}
+
+
+
+

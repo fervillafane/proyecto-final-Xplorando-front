@@ -1,0 +1,131 @@
+.search {
+  display: flex;
+  justify-content: space-between  ;
+}
+.search-bar {
+  display: flex;
+  background-color: white;
+  border: 1px solid #001f3f;
+  border-radius: 8px;
+  overflow: hidden;
+  width: 800px;
+  margin: 0 auto 2rem;
+}
+
+.init-date {
+  border: 1px solid #001f3f;
+  border-radius: 8px;
+  height: 52px;
+}
+
+.sugerencias {
+  position: absolute;
+  /* top: 100%; Coloca las sugerencias debajo del input */
+  left: 0;
+  width: 100%;
+  background-color: red;
+  border: 1px solid #ccc;
+  border-top: none; /* Elimina el borde superior para evitar duplicación */
+  z-index: 1; /* Asegura que las sugerencias estén sobre otros elementos */
+}
+.divSearch-btn {
+  display: flex;
+  justify-content: end;
+  align-items: end;
+}
+.btn-search {
+  background-color: #f38164;
+  color: #ffffff;
+  border-radius: 25px;
+  padding: 0.5rem 1rem;
+  margin: 0.5rem;
+  text-decoration: none;
+  width: auto;
+}
+
+.done-date {
+  border: 1px solid #001f3f;
+  border-radius: 8px;
+  height: 52px;
+}
+.resultados-obtenidos {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  width: 100%;
+  color: #273662;
+}
+
+/* .resultadoBusqueda {
+  display: flex;
+  flex-direction: row;
+  height: 552px;
+  align-items: center;
+  justify-content: center;
+  gap: 12px;
+  color: white;
+} */
+
+.resultadoBusqueda-nombre {
+  display: flex;
+  justify-content: left;
+  width: 90%;
+  font-weight: bolder;
+  margin-top: 5px;
+}
+
+.resultadoBusqueda-precio {
+  display: flex;
+  justify-content: left;
+  width: 90%;
+}
+
+.rBusqueda {
+  display: flex !important;
+  align-items: center;
+  flex-direction: column;
+  width: 360px !important;
+  background-color: #8799d8;
+  height: 480px;
+  border-radius: 12px;
+  border: 1px;
+}
+
+.imgRBusqueda {
+  width: 360px;
+  height: 266px;
+  border-radius: 12px;
+  object-fit: cover;
+}
+
+.div-img {
+  width: 360px;
+  height: 266px;
+  background-color: red;
+  border-radius: 12px;
+}
+
+.butBusqueda {
+  width: 161px;
+  height: 40px;
+  border-radius: 100px;
+  background-color: #273662;
+  color: white;
+}
+.h7Busqueda {
+  color: white;
+  text-align: justify;
+  width: 90%;
+}
+
+.divbutBusqueda {
+  display: flex;
+  justify-content: end;
+  margin: 12px;
+  width: 90%;
+}
+
+.carrousel-card {
+  display: flex;
+  justify-content: center;
+}

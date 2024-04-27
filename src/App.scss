@@ -1,0 +1,48 @@
+// variables globales
+:root {
+    --color-principal: #be4d1d;
+    --color-2: #383B58;
+    --color-3: #545776;
+    --color-4: #F3F1ED;
+  
+    --gris-plomo: #4F4F50;
+    --gris-suave: #BEBEBE;
+    --blanco: #fff;
+  }
+
+  button {
+    cursor: pointer;
+  }
+  
+  a {
+    cursor: pointer;
+  }
+  
+ 
+
+
+// Media queries
+
+@mixin breakpoints($point) {
+
+    // mobile
+    @if $point==sm {
+      @media (max-width: 480px) {
+        @content;
+      }
+    }
+  
+    // tablet
+    @if $point==md {
+      @media (min-width: 768px) and (max-width: 1024px) {
+        @content;
+      }
+  
+      // desktop
+      @if $point==lg {
+        @media (min-width: 1024px) and (max-width: 1920px) {
+          @content;
+        }
+      }
+    }
+  }

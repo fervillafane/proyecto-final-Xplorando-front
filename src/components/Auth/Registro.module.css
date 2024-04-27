@@ -1,0 +1,151 @@
+.registerContainer {
+    display: flex;
+    height: 100vh;
+}
+
+.imageContainerRegister {
+    flex: 1;
+    background: url('src/assets/img/fotologin.jpg') center/cover no-repeat;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    position: relative;
+}
+
+.imageContainerRegister::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background: rgba(0, 0, 0, 0.5);
+}
+
+.imageTextRegister {
+    text-align: left;
+    font-size: 70px;
+    justify-content: baseline;
+    z-index: 1;
+}
+
+.formContainerRegister {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f2f2f2;
+    padding: 20px;
+}
+
+.formTitleRegister {
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.inputWrapperRegister {
+    margin-bottom: 20px;
+}
+
+.formLabel {
+    font-size: 1rem;
+}
+
+.input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 1rem;
+}
+
+.error {
+    color: red;
+    font-size: 0.8rem;
+}
+
+.buttonWrapper {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.primaryButtonRegistro {
+    background-color: #f38164;
+    color: #fff;
+    font-size: 1rem;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 20px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.primaryButtonRegistro:hover {
+    background-color: #d95e26;
+  }
+
+.spanRegistro {
+    margin-top: 10px;
+    font-size: 0.9rem;
+}
+
+.loginLink {
+    margin-left: 5px;
+    color: #f38134;
+    text-decoration: none;
+}
+
+
+/* Para tablets */
+@media (max-width: 1024px) {
+    .registerContainer {
+      flex-direction: column;
+      height: auto;
+    }
+  
+    .imageContainerRegister {
+      height: 400px;
+    }
+  
+    .imageTextRegister {
+      font-size: 50px;
+      text-align: center;
+    }
+  
+    .formContainerRegister {
+      padding: 40px;
+    }
+  }
+  
+  /* Para dispositivos móviles */
+  @media (max-width: 767px) {
+    .imageContainerRegister {
+      height: 300px;
+    }
+  
+    .imageTextRegister {
+      font-size: 40px;
+    }
+  
+    .formContainerRegister {
+      padding: 20px;
+    }
+  
+    .inputWrapperRegister {
+      margin-bottom: 15px;
+    }
+  
+    .buttonWrapper {
+      flex-direction: column;
+      align-items: flex-start;
+    }
+  
+    .primaryButtonRegistro {
+      margin-bottom: 10px;
+    }
+  }

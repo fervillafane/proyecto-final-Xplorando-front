@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Capa_1" data-name="Capa 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 412.35 102.73">
+  <defs>
+    <style>
+      .cls-1 {
+        letter-spacing: .15em;
+      }
+
+      .cls-2 {
+        letter-spacing: .15em;
+      }
+
+      .cls-3 {
+        letter-spacing: .15em;
+      }
+
+      .cls-4 {
+        font-family: NeueHaasDisplay-Thin, 'Neue Haas Grotesk Display Pro';
+        font-size: 18px;
+        font-weight: 200;
+      }
+
+      .cls-4, .cls-5, .cls-6 {
+        fill: #283562;
+      }
+
+      .cls-7 {
+        letter-spacing: .12em;
+      }
+
+      .cls-8 {
+        letter-spacing: .13em;
+      }
+
+      .cls-9 {
+        letter-spacing: .12em;
+      }
+
+      .cls-10 {
+        fill: #f08265;
+      }
+
+      .cls-10, .cls-5 {
+        stroke-width: 0px;
+      }
+
+      .cls-11 {
+        letter-spacing: .16em;
+      }
+
+      .cls-12 {
+        letter-spacing: .13em;
+      }
+
+      .cls-13 {
+        letter-spacing: .15em;
+      }
+
+      .cls-14 {
+        letter-spacing: .14em;
+      }
+
+      .cls-6 {
+        font-family: NeueHaasDisplay-Black, 'Neue Haas Grotesk Display Pro';
+        font-size: 44px;
+        font-weight: 800;
+      }
+
+      .cls-15 {
+        letter-spacing: .14em;
+      }
+    </style>
+  </defs>
+  <path class="cls-5" d="m9.36,65.03l13.82-20.61-13.59-20.25h9.63l8.77,13.08L52.97,0,11.92,13.28l-7.91,2.56-4.01,1.3v46.26c0,1.62,1.31,2.94,2.94,2.94h3.98c.98,0,1.89-.49,2.44-1.3Z"/>
+  <path class="cls-10" d="m53.96,22.67h-3.98c-.98,0-1.89.49-2.44,1.3l-14.22,21.21,12.95,19.3h-9.63l-8.14-12.13L3.94,89l40.39-13.07,6.85-2.22,5.72-1.85V25.61c0-1.62-1.31-2.94-2.94-2.94Z"/>
+  <text class="cls-4" transform="translate(91.82 80.34)"><tspan class="cls-1" x="0" y="0">Vi</tspan><tspan class="cls-12" x="18.77" y="0">v</tspan><tspan class="cls-1" x="29.29" y="0">e nu</tspan><tspan class="cls-12" x="68.96" y="0">e</tspan><tspan class="cls-7" x="80.17" y="0">v</tspan><tspan class="cls-14" x="90.5" y="0">a</tspan><tspan class="cls-3" x="101.92" y="0">s </tspan><tspan class="cls-9" x="117.9" y="0">e</tspan><tspan class="cls-3" x="128.84" y="0">xperienci</tspan><tspan class="cls-15" x="215.94" y="0">a</tspan><tspan class="cls-2" x="227.36" y="0">s</tspan></text>
+  <text class="cls-6" transform="translate(65.39 59.55)"><tspan class="cls-13" x="0" y="0">P</tspan><tspan class="cls-8" x="35.77" y="0">L</tspan><tspan class="cls-13" x="66.66" y="0">O</tspan><tspan class="cls-11" x="106.39" y="0">R</tspan><tspan class="cls-3" x="143.7" y="0">ANDO</tspan></text>
+</svg>
