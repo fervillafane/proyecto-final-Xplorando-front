@@ -17,4 +17,8 @@ npm install sweetalert
 
 (puede que falte alguna)
 
+TRABAJO INTEGRADOR FINAL-DESARROLLADOR FULL STACK - DIGITAL HOUSE: "XPLORANDO"
+
+Trabajo colaborativo, donde cumpli el ROLL de Scrum Master y formar parte del equipo de Back End y BBDD. 
+
 
